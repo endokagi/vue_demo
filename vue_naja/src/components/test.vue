@@ -6,6 +6,8 @@
         <h2>email</h2>
         <p>==========================================</p>
         <h3>wasdwasdwasd</h3>
+
+        
     </div>
 </template>
 
@@ -14,6 +16,8 @@ export default {
     name: 'Test',
     props: {
         mrg: String
+    },
+    setup(){
     }
 }
 </script>

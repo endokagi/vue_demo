@@ -1,16 +1,22 @@
 <template>
-    <div class="dashboard">
-        <Test mrg="Dashboard"/>
-    </div>
+  <div class="dashboard">
+    <Test mrg="Dashboard" />
+    <ToggleSidebar />
+    
+  </div>
 </template>
 
 <script>
-import Test from '@/components/test.vue'
+import Test from "@/components/test.vue";
+import ToggleSidebar from '@/components/toggle_sidebar.vue';
 
-export default ({
-    name: 'Dashboard',
-    components: {
-        Test
-    }
-})
+export default {
+  components: {
+    Test,
+    ToggleSidebar
+  },
+  setup() {
+    return {}
+  },
+};
 </script>
